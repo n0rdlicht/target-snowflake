@@ -19,11 +19,11 @@ setup(
     classifiers=['Programming Language :: Python :: 3 :: Only'],
     py_modules=['target_snowflake'],
     install_requires=[
-        'singer-python==5.9.0',
+        'singer-python==5.13.0',
         'singer-target-postgres==0.2.4',
         'target-redshift==0.2.4',
         'botocore<1.13.0,>=1.12.253',
-        'snowflake-connector-python==2.2.5'
+        'snowflake-connector-python==2.8.1'
     ],
     setup_requires=[
         "pytest-runner"
